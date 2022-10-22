@@ -24,7 +24,7 @@ export default defineConfig({
         "element-plus",
         "vue3-text-clamp",
         "crypto-js", "vue-router",
-        "axios","quill","quill-image-uploader"
+        "axios", "quill", "quill-image-uploader"
 
       ],
       output: {
