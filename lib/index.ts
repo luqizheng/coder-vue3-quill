@@ -1,18 +1,12 @@
-export * from './types'
-import { App } from 'vue'
-
-import { Options } from './types'
-
-import labelDemo from './label/index.vue'
-
-
-
-export default {
-
-    install: (app: App, option: Options) => {
-
-
-        app.component('coder-label-demo', labelDemo)
-
-    }
+import Quill from 'quill'
+import quillEditor from '../lib/editor'
+import {App} from 'vue'
+quillEditor.install = function(app:App) {
+  app.component(quillEditor.name, quillEditor)
 }
+
+
+const VueQuillEditor = { Quill, quillEditor }
+
+export default VueQuillEditor
+export { Quill, quillEditor }
