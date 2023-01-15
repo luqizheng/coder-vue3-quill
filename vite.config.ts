@@ -20,7 +20,7 @@ export default defineConfig({
         "dayjs",
         "@aspnet/signalr",
         "ant-design-vue",
-        "coder-member-components-vue3",
+      
         "element-plus",
         "vue3-text-clamp",
         "crypto-js", "vue-router",

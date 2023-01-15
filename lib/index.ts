@@ -1,7 +1,7 @@
 import Quill from 'quill'
-import quillEditor from '../lib/editor'
-import {App} from 'vue'
-quillEditor.install = function(app:App) {
+import quillEditor from '../lib/editor/index.vue'
+import { App } from 'vue'
+quillEditor.install = function (app: App) {
   app.component(quillEditor.name, quillEditor)
 }
 
