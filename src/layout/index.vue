@@ -1,6 +1,6 @@
 <template>
   <div>
-    <memberLogin />
+    
     <a-layout style="min-height: 100vh">
       <a-layout-sider v-model:collapsed="collapsed" collapsible>
         <menus />
@@ -29,7 +29,7 @@ import {
 } from "@ant-design/icons-vue";
 import { defineComponent, ref } from "vue";
 import menus from "./menu.vue";
-import memberLogin from "./login.vue";
+
 
 export default defineComponent({
   components: {
@@ -38,7 +38,7 @@ export default defineComponent({
     UserOutlined,
     TeamOutlined,
     menus,
-    memberLogin,
+   
     FileOutlined,
   },
   data() {
